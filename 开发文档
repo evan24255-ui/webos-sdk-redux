@@ -1,0 +1,13 @@
+启动后台服务 sudo novacomd/build-novacomd/novacomd
+查看设备列表 novacom/build-novacom/novacom -l
+编译安装 ./0.4.1/bin/palm-package ./veer-remote-app  && ./0.4.1/bin/palm-install -d usb ./com.veer.remote_1.0.0_all.ipk
+查看日志 ./0.4.1/bin/palm-log -f com.veer.remote
+创建应用脚手架
+应用目录 veer-remote-app
+
+针对macos27 编译的库文件
+	libhid.so 
+	libhidaccelerometer.so
+
+HP Veer ssh配置文件，修改了允许root登录
+	novacom/dropbear.new

@@ -7,3 +7,6 @@ set-apple-vars.sh
 
 # Windows GUI installer output (installer-windows/build.ps1)
 installer-windows/Output/
+*.un~
+*.ipk
+veer-remote-app
